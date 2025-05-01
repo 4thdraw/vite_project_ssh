@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base; 
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* 피그마의  로컬베이어블즈 */
+  --color-primary: #1E3A8A;
+  --color-secondary: #FBBF24;
+  --color-accent: #F472B6;
+  --color-background: #fff;
+  --color-text: #111827;
+  --font-en : 'Montserrat';
+  --font-ko : 'Gothic A1', sans-serif;
+  --font-size-base: 16px;
+}
+body{
+    font-family: var(--font-en), var(--font-ko);
+    font-size: var(--font-size-base);
+    color: var(--color-text);
+    line-height: 1.8;
+    letter-spacing: -0.055em;
+    background-color: var(--color-background);
+    font-weight: 400;
+}
+body * {
+    word-break: keep-all !important;
+}
+.en{
+    font-family: var(--font-en), sans-serif !important;
+}
+.ko{
+    font-family: var(--font-ko) !important;
+}
+.bg-active{
+    background-color: var(--color-primary) !important;
+}
+.active{
+    color: var(--color-primary) !important;
+}
+.beforeno:before{
+    display: none !important;
+}
+.afterno:after{
+    display: none !important;
+}
+.mw-none {
+    max-width: none !important;
+}
+.background_none {
+    background-image: none !important;
+}
+.fw100 {
+    font-weight: 100 !important;
+}
+.fw200 {
+    font-weight: 200 !important;
+}
+  
+.fw300 {
+    font-weight: 300 !important;
+  }
+  
+  .fw400 {
+    font-weight: 400 !important;
+  }
+  
+  .fw500 {
+    font-weight: 500 !important;
+  }
+  
+  .fw600 {
+    font-weight: 600 !important;
+  }
+  
+  .fw700 {
+    font-weight: 700 !important;
+  }
+  
+  .fw800 {
+    font-weight: 800 !important;
+  }
+  
+  .fw900 {
+    font-weight: 900 !important;
+  }
+  .fw100 {
+    font-weight: 100 !important;  
+  }
+.fw200 {
+    font-weight: 200 !important;
+}
+  
+  .fw300 {
+    font-weight: 300 !important;
+  }
+  
+  .fw400 {
+    font-weight: 400 !important;
+  }
+  
+  .fw500 {
+    font-weight: 500 !important;
+  }
+  
+  .fw600 {
+    font-weight: 600 !important;
+  }
+  
+  .fw700 {
+    font-weight: 700 !important;
+  }
+  
+  .fw800 {
+    font-weight: 800 !important;
+  }
+  
+  .fw900 {
+    font-weight: 900 !important;
+  }
+  
